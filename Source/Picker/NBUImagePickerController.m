@@ -672,7 +672,7 @@
         result = [NSMutableArray arrayWithCapacity:_mediaInfos.count];
         for (NSUInteger index = 0; index < _mediaInfos.count; index++)
         {
-            [result addObject:((NBUMediaInfo *)_mediaInfos[index++]).editedImage];
+            [result addObject:((NBUMediaInfo *)_mediaInfos[index]).editedImage];
         }
     }
     
